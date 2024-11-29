@@ -1,0 +1,88 @@
+body {
+  background-color: #222121;
+  font-family: "Caesar Dressing";
+}
+
+p {
+  font-family: "Caesar Dressing";
+  color: white;
+  font-size: 80px;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+img {
+  width: 80px;
+  height: 80px;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.calculator {
+  height: 500px;
+  width: 400px;
+  background-color: #929292;
+  border: 1px solid white;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+}
+
+.display {
+  display: flex;
+  margin: 0.5rem auto 0 auto;
+  background-color: #122431;
+  width: 95%;
+  height: 85px;
+  border: 1px solid white;
+  border-radius: 4px;
+  backdrop-filter: blur(8px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+}
+
+.buttons-container {
+  background-color: #122431;
+  margin: .5rem auto 0 auto;
+  width: 95%;
+  height: 385px;
+  border-radius: 4px;
+}
+
+.buttons-grid {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  padding: 2px 2px 0 2px;
+}
+
+.button {
+  width: 100px;
+  height: 74px;
+  background-color: #37768f;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #cfcfcf;
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.button:hover {
+  filter: brightness(1.5);
+}
+
+.button.alt-operation {
+  background-color: #314b2f;
+}
+
+.button.math-operation {
+  background-color: #c28427;
+}
+
+.button.double-button {
+  width: 204px;
+}
